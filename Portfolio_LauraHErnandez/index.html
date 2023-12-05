@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Laura Hernandez</title>
+    <link rel="stylesheet" href="./css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Space+Grotesk:wght@300&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0e9d9e5ddf.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <div class="menu">
+          <h1 class="logo">Laura.</h1>
+          <input type="checkbox" id="menu_check" hidden>
+          <label for="menu_check">
+            <i class="fa-solid fa-bars" style="color: #ffffff;"></i>
+          </label>
+          <nav class="nav">
+            <label for="menu_check">
+              <i class="fa-solid fa-x"></i>
+            </label>
+            <ul>
+              <li class="opcion active"><a href="#home">Home</a></li>
+              <li class="opcion"><a href="#about">About</a></li>
+              <li class="opcion"><a href="#proyectos">Proyects</a></li>
+              <li class="opcion"><a href="#habilidades">Skills</a></li>
+              <li class="opcion"><a href="#redes">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        
+    </header>
+    <section class="home" id="home">
+        <div class="home-container">
+            <h3>Hola, mi nombre es</h3>
+            <h1>Laura Hernández</h1>
+            <h3>Y soy diseñadora de aplicaciones web</h3>   
+            <button><a href="#about">Saber mas</a></button>         
+        </div>
+        <img src="./img/cabecera.png" alt="imagen-cabecera-pantalla" title="imagen-cabecera-pantalla">
+        
+    </section>
+
+    <section class="about" id="about">
+    <div class="fondo">
+        <h2 class="about-me">Sobre<span> mi</span></h2>
+        <div class="about-img">
+            <img src="./img/dibujo2.jpg" alt="niña-ordenador" title="niña-ordenador">
+        </div>
+        <div class="about-text">
+            ¡Hola, soy Laura y estoy emocionada por comenzar mi viaje como desarrolladora web! <br>Recientemente graduada en
+            Diseño de Aplicaciones Web, estoy lista para traducir mi pasión por la tecnología en soluciones web innovadoras.
+            Mi fascinación por la tecnología y la creatividad me llevó a sumergirme en el desarrollo web. A medida que
+            exploraba los fundamentos, descubrí la capacidad transformadora de escribir código. Cada proyecto fue una
+            oportunidad para aprender y aplicar mis conocimientos.
+
+        </div>
+    </div>
+        
+    </section>
+    <section class="proyects" id="proyectos">
+        <h2 class="about-me">Mis<span> proyectos</span></h2>
+        <div class="proyects-container">
+            <div class="proyects-content">
+                <div class="proyect-fila">
+                    <img src="./img/website.jpg" alt="website" title="website">
+                    <div class="layer">
+                        <h5>WEBSITE</h5>
+                        <div class="utilidad">
+                            <button class="utilidades">HTML</button>
+                            <button class="utilidades">CSS</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="proyect-fila">
+                    <img src="./img/mario.jpg" alt="dibujo-mario" title="dibujo-mario">
+                    <div class="layer">
+                        <h5>DIBUJOS 2D y 3D</h5>
+                        <div class="utilidad">
+                            <button class="utilidades">HTML</button>
+                            <button class="utilidades">CSS</button>
+                        </div>                    
+                    </div>
+                </div>
+        
+                <div class="proyect-fila">
+                    <img src="./img/buscaminas.jpg" alt="buscaminas" title="buscaminas">
+                    <div class="layer">
+                        <h5>JUEGOS</h5>
+                        <div class="utilidad">
+                            <button class="utilidades">JAVA</button>
+                            <button class="utilidades">JS</button>
+                            <button class="utilidades">HTML</button>
+                            <button class="utilidades">CSS</button>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="proyect-fila">
+                    <img src="./img/calendario.jpg" alt="calendario" title="calendario">
+                    <div class="layer">
+                        <h5>CALENDARIOS</h5>
+                        <div class="utilidad">
+                            <button class="utilidades">JS</button>
+                            <button class="utilidades">HTML</button>
+                            <button class="utilidades">CSS</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="habilidades" id="habilidades">
+        <div class="fondo">
+
+          <h1>Skills</h1>
+        <div class="grid">
+          <div class="habilidad">
+            <span>HTML</span>
+            <div style="--porcentaje: 90" class="porcentajes"> 
+                <svg width="150" height="150">
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                </svg>
+                <span>90% <br> HTML</span>
+
+            </div>
+          </div>
+          <div class="habilidad">
+            <span>JS</span>
+            <div style="--porcentaje: 60" class="porcentajes"> 
+                <svg width="150" height="150">
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                </svg>
+                <span>60% <br> JS</span>
+            </div>
+          </div>
+          <div class="habilidad">
+            <span>CSS</span>
+            <div style="--porcentaje: 70" class="porcentajes"> 
+                <svg width="150" height="150">
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                </svg>
+                <span>70% <br> CSS</span>
+            </div>
+          </div>
+          <div class="habilidad">
+            <span>Java</span>
+            <div style="--porcentaje: 80" class="porcentajes"> 
+                <svg width="150" height="150">
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                </svg>
+                <span>80% <br>JAVA</span>
+            </div>
+          </div>
+          <div class="habilidad">
+            <span>PHP</span>
+            <div style="--porcentaje: 60" class="porcentajes"> 
+                <svg width="150" height="150">
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                </svg>
+                <span>60% <br> PHP</span>
+            </div>
+          </div>
+          <div class="habilidad">
+            <span>MySQL</span>
+            <div style="--porcentaje: 80" class="porcentajes"> 
+                <svg width="150" height="150">
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                    <circle cx="50%" cy="50%" r="3vw" pathlength="100"/>
+                </svg>
+                <span>80% <br> MySQL</span>
+            </div>
+          </div>
+        </div>
+    </div>  
+    </section>
+
+      <section class="redes" id="redes">
+        <h2 class="contacto">¿HABLAMOS?</h2>
+        <div class="menu_redes">
+          <div class="red">
+             <div class="icon">
+              <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-linkedin-in" style="color:#F12AFF;"></i></a>
+             </div>
+             <a href="https://twitter.com/?lang=es"><span>Linkedin</span></a>
+          </div>
+          <div class="red">
+             <div class="icon">
+              <a href="https://twitter.com/?lang=es"><i class="fa-brands fa-x-twitter" style="color: #F12AFF;"></i></a>
+             </div>
+             <a href="https://twitter.com/?lang=es"><span>Twitter</span></a>
+          </div>
+          <div class="red">
+             <div class="icon">
+              <a href="https://github.com"><i class="fa-brands fa-github" style="color: #F12AFF;"></i></a>
+             </div>
+             <a href="https://github.com"><span>Github</span></a>
+          </div>
+          <div class="red">
+             <div class="icon">
+              <a href="mailto: laura.hernandez.r@hotmail.com"> <i class="fa-solid fa-envelope" style="color: #F12AFF;"></i></a>
+             </div>
+             <a href="mailto: laura.hernandez.r@hotmail.com"><span>Email</span></a>
+          </div>
+
+        </div>     
+
+      </section>
+      <footer>
+        <span class="footer">Created by Laura Hernández</span>
+        <a class="subir" href="#home" title="subir"><i class="fa-solid fa-arrow-right fa-rotate-270" style="color: #F12AFF;"></i></a>
+
+      </footer>
+</body>
+</html>
